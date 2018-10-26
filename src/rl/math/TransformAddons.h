@@ -124,8 +124,6 @@ getDelta() const
 	res(3) = ((*this)(2, 1) - (*this)(1, 2)) / 2.0f;
 	res(4) = ((*this)(0, 2) - (*this)(2, 0)) / 2.0f;
 	res(5) = ((*this)(1, 0) - (*this)(0, 1)) / 2.0f;
-	
-	return res;
 }
 
 template<typename Scalar>
