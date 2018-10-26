@@ -189,7 +189,7 @@ else()
 endif()
 
 if(NOT CMAKE_VERSION VERSION_LESS 3.8)
-	target_compile_features(hal PUBLIC cxx_std_11)
+	target_compile_features(hal PUBLIC cxx_std_14)
 endif()
 
 target_link_libraries(

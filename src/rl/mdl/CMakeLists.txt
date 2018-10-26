@@ -78,7 +78,7 @@ if(MSVC AND CMAKE_CXX_COMPILER_VERSION VERSION_LESS 19.00.23918)
 endif()
 
 if(NOT CMAKE_VERSION VERSION_LESS 3.8)
-	target_compile_features(mdl PUBLIC cxx_std_11)
+	target_compile_features(mdl PUBLIC cxx_std_14)
 endif()
 
 target_include_directories(

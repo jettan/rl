@@ -28,7 +28,7 @@ else()
 endif()
 
 if(NOT CMAKE_VERSION VERSION_LESS 3.8)
-	target_compile_features(xml INTERFACE cxx_std_11)
+	target_compile_features(xml INTERFACE cxx_std_14)
 endif()
 
 target_include_directories(

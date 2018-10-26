@@ -37,7 +37,7 @@ else()
 endif()
 
 if(NOT CMAKE_VERSION VERSION_LESS 3.8)
-	target_compile_features(util INTERFACE cxx_std_11)
+	target_compile_features(util INTERFACE cxx_std_14)
 endif()
 
 if(NOT CMAKE_VERSION VERSION_LESS 3.0)
